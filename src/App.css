@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+button {
+  /* --primary-color: #000000; */
+  --secondary-color: rgb(55, 55, 245);
+  --hover-color: #eceff2;
+  --arrow-width: 10px;
+  --arrow-stroke: 2px;
+
+	color: rgb(26, 125, 224);
+  padding: 0.6rem 0;
+  display: flex;
+  transition: 0.2s zinc;
+  align-items: center;
+  gap: 0.6em;
+  font-weight: 500;
+}
+
+button .arrow-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button .arrow {
+  margin-top: 1px;
+  width: var(--arrow-width);
+  /* background: var(--primary-color); */
+  height: var(--arrow-stroke);
+  position: relative;
+  transition: 0.2s;
+}
+
+button .arrow::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  border: solid var(--secondary-color);
+  border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+  display: inline-block;
+  top: -3px;
+  right: 3px;
+  transition: 0.2s;
+  padding: 3px;
+  transform: rotate(-45deg);
+}
+
+button:hover .arrow {
+  background: var(--secondary-color);
+}
+
+button:hover .arrow:before {
+  right: 0;
+}
