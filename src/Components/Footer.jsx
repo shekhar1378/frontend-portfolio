@@ -12,9 +12,17 @@ const Footer = () => {
         </div>
 
         <div className='flex gap-5 items-center md:px-6 p-8'>
-            <span className=' text-[1.4rem]'><FaXTwitter/></span>
-            <span className=' text-[1.4rem]'><FiGithub/></span>
-            <span className=' text-[1.6rem]'><TbBrandLinkedin/></span>
+         <a href="https://github.com/shekhar1378" target="_blank" rel="noopener noreferrer">
+            <span className=' text-[1.4rem] hover:text-blue-700'><FiGithub/></span>
+          </a>
+          <a href="https://twitter.com/shekhar9837" target="_blank" rel="noopener noreferrer">
+            <span className=' text-[1.4rem]  hover:text-blue-700'><FaXTwitter/></span>
+            </a>
+          <a href="https://www.linkedin.com/in/chandra-shekhar-maurya" target="_blank" rel="noopener noreferrer">
+            <span className=' text-[1.6rem] hover:text-blue-700'><TbBrandLinkedin/></span>
+            </a>
+
+
         </div>
         </div>
     </div>  

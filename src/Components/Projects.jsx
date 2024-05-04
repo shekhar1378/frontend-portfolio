@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css";
 
 const Projects = () => {
   const projectsList = [
@@ -6,54 +7,60 @@ const Projects = () => {
       name: "Twice",
       description:
         "Twice is an app that allows users to create and share their own custom music playlists.",
-      image:
-        "https://dennissnellenberg.com/media/pages/work/twice/0ab7e43954-1710404752/thumbnail-twice.jpg",
+      image: "https://hailee.netlify.app/assets/img/work2.jpg",
       year: "2024",
     },
     {
       name: "Twice",
       description:
         "Twice is an app that allows users to create and share their own custom music playlists.",
-      image:
-        "https://dennissnellenberg.com/media/pages/work/twice/0ab7e43954-1710404752/thumbnail-twice.jpg",
+      image: "https://hailee.netlify.app/assets/img/work2.jpg",
       year: "2024",
     },
     {
       name: "Twice",
       description:
         "Twice is an app that allows users to create and share their own custom music playlists.",
-      image:
-        "https://dennissnellenberg.com/media/pages/work/twice/0ab7e43954-1710404752/thumbnail-twice.jpg",
+      image: "https://hailee.netlify.app/assets/img/work2.jpg",
       year: "2024",
     },
   ];
 
   return (
-    <section id="projects">
-      <div className="w-full bg-zinc-900  p-1 flex items-center justify-center ">
-        <div className="w-full flex justify-start items-start flex-col  px-2 py-4">
-          <div className="w-full  md:px-14 px-1 py-10">
-            <h1 className="block m-b-start-2rem md:text-[3.6rem] text-[2.8rem] leading-none">
-              <span>Creating next level</span>
-              <span> digital products</span>
-            </h1>
-            {/* <h1 className="md:text-[3.6rem] text-[2.8rem] leading-none"></h1> */}
-          </div>
+    <section id="projects" className="pt-10 md:pt-32">
+      <div className="container mx-auto lg:px-20 px-4 py-10">
+        <h1 className="text-3xl font-semibold text-center mb-8">
+          Creating Next Level Digital Products
+        </h1>
 
-          <div className=" flex flex-col items-center space-x-3 gap-5 ">
-            {projectsList.map((item, index) => (
-              <div key={index} className=" bg-red-300">
-                <div className=" grid grid-cols-2  ">
-                  <img src={item.image} alt="" className="" />
-                  <h1 className="text-xl font-bold">{item.name}</h1>
-                  <div>
-                    <p>{item.description}</p>
-                    <p>{item.year}</p>
-                  </div>
-                </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {projectsList.map((project, index) => (
+            <div key={index} className=" bg-zinc-800 rounded-lg shadow-md">
+              <div className="px-6 py-6 rounded-lg">
+                <img
+                  src={project.image}
+                  alt={project.name}
+                  className="w-full h-56 object-cover rounded-lg"
+                />
               </div>
-            ))}
-          </div>
+              <div className="p-6">
+                <h2 className="text-lg font-semibold mb-2">{project.name}</h2>
+                <p className="text-sm text-gray-400 mb-4">
+                  {project.description}
+                </p>
+
+                <button className="flex px-4 py-2 bg-zinc-700 text-white rounded-md transition duration-300 hover:bg-gray-700">
+                  {" "}
+                  <a href="https://www.google.com/" className="">
+                    Demo
+                  </a>{" "}
+                  <div className="arrow-wrapper">
+                    <div className="arrow"></div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>
