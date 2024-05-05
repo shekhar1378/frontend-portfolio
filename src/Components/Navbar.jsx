@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full bg-zinc-900 text-white md:px-16 px-10 py-6 flex justify-between items-center shadow-xl z-50">
+    <div className="fixed w-full bg-zinc-900 text-white md:px-16 px-4 py-6 flex justify-between items-center shadow-xl z-50">
       <h1 className="text-[1.4rem] font-bold tracking-wider cursor-pointer">Shekhar</h1>
 
       <ul className="md:flex font-semibold items-center hidden gap-10 text-[1rem] cursor-pointer ">
