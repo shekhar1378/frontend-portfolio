@@ -14,7 +14,7 @@ const Hero = () => {
               Front-End React<br/> Developer
             </h1>
             <img
-              src="/src/assets/waving.png"  
+              src="/assets/images/waving.png"  
               className="md:w-[4rem] md:h-[4rem] w-[2.6rem] absolute md:top-[26%]  md:right-1/4 top-[22%] right-[6%] "
             />
             <p className="md:py-10 py-6 md:text-[1rem] text-[0.9rem]">
