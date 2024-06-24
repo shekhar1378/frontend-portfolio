@@ -35,7 +35,7 @@ const Contact = () => {
               <span className="text-blue-700">
                 <MdOutlineEmail className="text-[1.9rem]" />
               </span>
-              <div className="ml-8">
+              <div className="ml-8 ">
                 <h1 className="text-[1.2rem] font-bold  tracking-wide">Mail</h1>
                 <a
                   href="mailto:mauryashekhar9837@gmail.com"

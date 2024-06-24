@@ -31,11 +31,11 @@ const Projects = () => {
   return (
     <section id="projects" className="pt-10 md:pt-32 ">
       <div className="container flex flex-col  mx-auto lg:px-20 px-4 py-10">
-        <h1 className="text-[2rem] font-semibold text-center mb-8">
+        <h1 className="text-[2rem] font-semibold md:text-start text-center mb-8 md:px-24">
           Creating Next Level Digital Products
         </h1>
 
-        <div className="flex flex-wrap items-center justify-center md:gap-20 gap-8">
+        <div className="flex flex-wrap items-start justify-start md:gap-20 gap-8 md:px-20">
           {projectsList.map((project, index) => (
             <div key={index} className="h-[30rem] w-[22rem] bg-zinc-800 rounded-lg shadow-md">
               <div className=" px-6 py-6 rounded-lg">
