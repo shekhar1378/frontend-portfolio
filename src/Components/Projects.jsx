@@ -7,7 +7,7 @@ const Projects = () => {
       name: "Devtube",
       description:
         "Devtube is a video streaming platform built using React, Tailwind CSS and YouTube's public API.",
-      image: "/public/devtube.jpeg",
+      image: "/screenshot/devtube.jpeg",
       year: "2024",
       link:"https://yt-devtube.vercel.app"
     },
@@ -15,7 +15,7 @@ const Projects = () => {
       name: "Everyday-needs",
       description:
         "This is a minimalist e-commerce website,This website features a modern and intuitive design, with easy-to-use navigation.",
-      image: "/public/everyday-needs.jpeg",
+      image: "/screenshot/everyday-needs.jpeg",
       year: "2024",
       link:"https://everyday-need.vercel.app"
     },
