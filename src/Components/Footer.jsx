@@ -6,7 +6,7 @@ import { TbBrandLinkedin } from "react-icons/tb";
 const Footer = () => {
   return (
     <div className=' bg-zinc-800 md:p-8 p-6'>
-        <div className='flex md:flex-row flex-col items-center justify-between md:px-16'>
+        <div className='flex md:flex-row flex-col items-center justify-between md:px-4'>
         <div className='flex items-center'>
             <h3 className='text-[1.2rem] font-bold px-6 text-center tracking-wide'>Copyright © {new Date().getFullYear()}. All rights are reserved</h3>
         </div>

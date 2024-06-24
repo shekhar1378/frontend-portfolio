@@ -7,8 +7,8 @@ const Contact = () => {
   return (
     <section id="contact">
       <div className="w-full  bg-zinc-900 md:p-20   flex flex-col">
-        <div className="w-full md:mt-16 mt-40 md:px-14 px-6">
-          <div className="flex flex-col md:items-start items-center  pb-16">
+        <div className="w-full md:mt-16 mt-40 md:px-20 px-6">
+          <div className="flex flex-col md:items-start items-center  pb-16 md:px-10">
             <h1 className="text-[1.2rem] uppercase font-bold  text-blue-700">
               Contact
             </h1>
@@ -17,7 +17,7 @@ const Contact = () => {
             </h1>
           </div>
 
-          <div className="flex md:flex-row flex-col  md:gap-40  border-t-2 border-zinc-700">
+          <div className="flex md:flex-row flex-col  md:gap-40 md:px-10  border-t-2 border-zinc-700">
             <div className="flex items-center rounded-lg py-10">
               <span className="flex  text-blue-700">
                 <GrMapLocation className="text-[1.9rem]" />
