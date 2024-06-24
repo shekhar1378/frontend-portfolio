@@ -4,26 +4,28 @@ import "../App.css";
 const Projects = () => {
   const projectsList = [
     {
-      name: "Twice",
+      name: "Devtube",
       description:
-        "Twice is an app that allows users to create and share their own custom music playlists.",
-      image: "https://hailee.netlify.app/assets/img/work2.jpg",
+        "Devtube is a video streaming platform built using React, Tailwind CSS and YouTube's public API.",
+      image: "public/devtube.jpeg",
       year: "2024",
+      link:"https://yt-devtube.vercel.app"
     },
     {
-      name: "Twice",
+      name: "Everyday-needs",
       description:
-        "Twice is an app that allows users to create and share their own custom music playlists.",
-      image: "https://hailee.netlify.app/assets/img/work2.jpg",
+        "This is a minimalist e-commerce website,This website features a modern and intuitive design, with easy-to-use navigation.",
+      image: "public/everyday-needs.jpeg",
       year: "2024",
+      link:"https://everyday-need.vercel.app"
     },
-    {
-      name: "Twice",
-      description:
-        "Twice is an app that allows users to create and share their own custom music playlists.",
-      image: "https://hailee.netlify.app/assets/img/work2.jpg",
-      year: "2024",
-    },
+    // {
+    //   name: "Twice",
+    //   description:
+    //     "Twice is an app that allows users to create and share their own custom music playlists.",
+    //   image: "https://hailee.netlify.app/assets/img/work2.jpg",
+    //   year: "2024",
+    // },
   ];
 
   return (
@@ -51,7 +53,10 @@ const Projects = () => {
 
                 <button className="flex px-4 py-2 bg-zinc-700 text-white rounded-md transition duration-300 hover:bg-gray-700">
                   {" "}
-                  <a href="https://www.google.com/" className="">
+                  <a 
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer">
                     Demo
                   </a>{" "}
                   <div className="arrow-wrapper">

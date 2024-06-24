@@ -3,10 +3,10 @@
 .hero-img {
     -webkit-animation: morph 8s ease-in-out infinite;
     animation: morph 8s ease-in-out infinite;
-    background-image: url(https://th.bing.com/th/id/OIP.74exSJDttJ-EzJjAt8dEYgAAAA?rs=1&pid=ImgDetMain);
+    background-image: url("profile-pic.png");
     background-position: 50%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 22rem;
     border: 3px solid #ffffff;
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     height: 20rem;
@@ -18,7 +18,8 @@
 @media (max-width: 500px) {
     .hero-img {
         height: 14rem;
-        width: 14rem
+        width: 14rem;
+        background-size: 18rem;
     }
 }
 
