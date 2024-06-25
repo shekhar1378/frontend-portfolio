@@ -4,20 +4,20 @@ import "../App.css";
 const Projects = () => {
   const projectsList = [
     {
-      name: "Devtube",
-      description:
-        "Devtube is a video streaming platform built using React, Tailwind CSS and YouTube's public API.",
-      image: "/devtube.jpeg",
-      year: "2024",
-      link:"https://yt-devtube.vercel.app"
-    },
-    {
       name: "Everyday-needs",
       description:
         "This is a minimalist e-commerce website,This website features a modern and intuitive design, with easy-to-use navigation.",
       image: "/everyday-needs.jpeg",
       year: "2024",
       link:"https://everyday-need.vercel.app"
+    },
+    {
+      name: "Devtube",
+      description:
+        "Devtube is a video streaming platform built using React, Tailwind CSS and YouTube's public API.",
+      image: "/devtube.jpeg",
+      year: "2024",
+      link:"https://yt-devtube.vercel.app"
     },
     // {
     //   name: "Twice",
