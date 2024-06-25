@@ -19,6 +19,9 @@ const About = () => {
             My main stack includes React/Next.js, <br/>Tailwind CSS, and TypeScript.
             </p>
           </div>
+          <div className="md:px-20 flex md:justify-start justify-center ">
+          <a target="_blank" href="https://drive.google.com/file/d/1kbq93DH4gn2OMkztNuH5rSbRQLJG1OYr/view?usp=drivesdk" className=" text-zinc-200 px-6 py-2 text-[1.6rem] font-bold  bg-zinc-800 rounded-xl  hover:bg-zinc-200 hover:text-zinc-800 mx-4">Resume</a>
+          </div>
         </div>
 
         {/* <div className="w-full flex items-start justify-start py-10 md:px-20">
