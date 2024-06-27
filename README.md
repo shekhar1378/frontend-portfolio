@@ -1,1 +1,1 @@
-#Don't forgot to give a STAR
+Give a STAR
