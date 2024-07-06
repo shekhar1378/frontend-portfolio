@@ -51,10 +51,10 @@ const Hero = () => {
                   <img src="https://skillicons.dev/icons?i=html,css" />
                 </li>
                 <li className="transform transition-transform hover:-translate-y-1">
-                  <img src="https://skillicons.dev/icons?i=js,ts" />
+                  <img src="https://skillicons.dev/icons?i=js" />
                 </li>
                 <li className="transform transition-transform hover:-translate-y-1">
-                  <img src="https://skillicons.dev/icons?i=react,nextjs" />
+                  <img src="https://skillicons.dev/icons?i=react" />
                 </li>
                 <li className="transform transition-transform hover:-translate-y-1">
                   <img src="https://skillicons.dev/icons?i=tailwind,sass" />
