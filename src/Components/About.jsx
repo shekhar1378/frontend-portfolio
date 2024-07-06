@@ -16,11 +16,11 @@ const About = () => {
               I'm a Frontend Developer passionate about creating clean<br/> UI/UX experiences for users. 
             </p>
             <p className="text-lg md:text-xl mb-8 text-zinc-300">
-            My main stack includes React/Next.js, <br/>Tailwind CSS, and TypeScript.
+            My main stack includes React.js, with<br/>Tailwind CSS.
             </p>
           </div>
           <div className="md:px-20 flex md:justify-start justify-center ">
-          <a target="_blank" href="https://drive.google.com/file/d/1kbq93DH4gn2OMkztNuH5rSbRQLJG1OYr/view?usp=drivesdk" className=" text-zinc-200 px-6 py-2 text-[1.6rem] font-bold  bg-zinc-800 rounded-xl  hover:bg-zinc-200 hover:text-zinc-800 mx-4">Resume</a>
+         
           </div>
         </div>
 
